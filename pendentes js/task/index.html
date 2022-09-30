@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+                                                            <!-- falha -->
+<body>
+    <div class="tab-pane fade active show" id="nav-lead-integracao" role="tabpanel" aria-labelledby="nav-lead-integracao-tab">
+        <div class="row mr-2"> 
+        <fieldset class="col-12 fieldset-suporte" id="areaListaFalhasIntegracao">
+            <legend class="legend-suporte">Lista de Falhas de Integração</legend>           
+            <table class="table tabela-falha-integracao-lead">
+                <thead>
+                    <tbody>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Nome Arquivo</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1</td>           
+                    <td>01/01/2022</td>
+                    <td>arquivo.erro</td>
+                    <td>
+                    <div class="btn btn-primary" onclick="VisualizarAqruivoFalhasIntegracao()">Ver arquivo</div>
+                    <div class="btn btn-primary" onclick="DeletarArquivoIntegracao()">Deletar</div>
+                </td>
+                </tr>
+
+        </tbody>
+
+            </table>
+        </div>
+    </fieldset>
+</div>
+</div>
+
+                                                           <!-- pend -->
+
+    <div class="tab-pane fade active show" id="nav-lead-integracao" role="tabpanel" aria-labelledby="nav-lead-integracao-tab">
+        <div class="row mr-2"> 
+        <fieldset class="col-12 fieldset-suporte" id="areaListaPendentesIntegracao">
+            <legend class="legend-suporte">Lista de Pendentes de Integração</legend>           
+            <table class="table tabela-pendente-integracao-lead">
+                <thead>
+                    <tbody>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Nome Arquivo</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>01/01/2022</td>
+                    <td>arquivo.erro</td>
+                    <td>
+                    <div class="btn btn-primary" onclick="VisualizarAqruivoPendenteIntegracao()">Ver arquivo</div>
+                    <div class="btn btn-primary" onclick="DeletarArquivoIntegracao()">Deletar</div>
+                </td>
+                </tr>
+
+        </tbody>
+
+            </table>
+        </div>
+    </fieldset>
+</div>
+</div>
+
+</div>
+
+</div>
+                
+<!-- <subdirectory C:\temp\IntegracaoZapImoveis\Pendentes></subdirectory> -->
+<!-- <a href=""></a> -->
+
+            <script src="script.js"></script>
+</body>
+</html>
